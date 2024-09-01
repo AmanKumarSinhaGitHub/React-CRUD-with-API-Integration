@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #131842;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #674188;
+}
+
+h2 {
+  color: #674188;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* Table Styling */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #674188;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #E2BFD9;
+}
+
+tr:hover {
+  background-color: #ebe9e8;
+}
+.errorMsg{
+  color:#c82333;
+  margin-bottom:15px;
+}
+/* Button Styling */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-right:15px;
+}
+
+.btn-primary {
+  background-color: #674188;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-info {
+  background-color: #33bee5;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-add {
+  background-color: #533366;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(103, 65, 136, 0.2);
+}
+
+.btn-add:hover {
+  box-shadow: 0 6px 12px rgba(103, 65, 136, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: #533366;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-info:hover {
+  background-color: #91dbef;
+}
+
+/* View Page Specific Styles */
+.view-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-top: 4px solid #E68369;
+}
+
+.view-container h2 {
+  color: #E68369;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.details {
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #131842;
+}
+
+.details p {
+  margin: 10px 0;
+}
+
+.details p strong {
+  font-weight: bold;
+  color: #674188;
+}
+
+.btn-back {
+  background-color: #dc3545;
+}
+
+.btn-back:hover {
+  background-color: #c82333;
+}
+
+/* Form Styles (Add Student Page) */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #131842;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-save,.btn-update {
+  background-color: #533366;
+}
+
+.btn-save:hover ,.btn-update:hover {
+  background-color: #674188;
+}
