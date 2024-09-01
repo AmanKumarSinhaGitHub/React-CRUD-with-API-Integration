@@ -1,7 +1,3 @@
-Here’s the updated `README.md` file with the requested changes:
-
----
-
 # React CRUD with API Integration
 
 This is a simple CRUD (Create, Read, Update, Delete) application built with React and JSON Server. It manages student records with operations for adding, editing, viewing, and deleting students.
